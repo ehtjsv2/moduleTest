@@ -55,7 +55,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.example.testmodule'
                 artifactId = 'moduleTest'
-                version = '1.0.1'
+                version = '1.0.2'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -64,7 +64,7 @@ afterEvaluate {
 
                 groupId = 'com.example.testmodule'
                 artifactId = 'moduleTest'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }
