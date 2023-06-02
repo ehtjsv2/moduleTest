@@ -53,7 +53,7 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.example.ehtjsv2'
+                groupId = 'com.example.testmodule'
                 artifactId = 'moduleTest'
                 version = '1.0.1'
             }
@@ -62,7 +62,7 @@ afterEvaluate {
                 // Applies the component for the debug build variant.
                 from components.debug
 
-                groupId = 'com.example.ehtjsv2'
+                groupId = 'com.example.testmodule'
                 artifactId = 'moduleTest'
                 version = '1.0.1'
             }
