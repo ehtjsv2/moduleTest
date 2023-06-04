@@ -145,6 +145,10 @@ android {
             path (project.projectDir.toString() + '/libcxx_helper/CMakeLists.txt')
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
 }
 
 dependencies {

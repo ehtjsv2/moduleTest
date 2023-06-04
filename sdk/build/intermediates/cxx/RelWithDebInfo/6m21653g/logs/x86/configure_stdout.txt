@@ -14,4 +14,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/user/Desktop/AndroidAppProgramming/-KNUCapstoneDesignProject2/TestApp/sdk/.cxx/RelWithDebInfo/6m21653g/x86
+-- Build files have been written to: C:/Users/user/AndroidStudioProjects/moduleTest/sdk/.cxx/RelWithDebInfo/6m21653g/x86
