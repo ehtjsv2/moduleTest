@@ -90,7 +90,7 @@
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'maven-publish'
+//apply plugin: 'maven-publish'
 
 def openCVersionName = "4.7.0-dev"
 def openCVersionCode = ((4 * 100 + 7) * 100 + 0) * 10 + 0
@@ -151,31 +151,31 @@ android {
     }
 }
 
-dependencies {
-}
-afterEvaluate {
-    publishing {
-        publications {
-            // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                // Applies the component for the release build variant.
-                from components.release
-
-                // You can then customize attributes of the publication as shown below.
-                groupId = 'com.example.testmodule'
-                artifactId = 'sdk'
-                version = '1.0.3'
-            }
-            // Creates a Maven publication called “debug”.
-            debug(MavenPublication) {
-                // Applies the component for the debug build variant.
-                from components.debug
-
-                groupId = 'com.example.testmodule'
-                artifactId = 'sdk'
-                version = '1.0.3'
-            }
-        }
-    }
-}
+//dependencies {
+//}
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            // Creates a Maven publication called "release".
+//            release(MavenPublication) {
+//                // Applies the component for the release build variant.
+//                from components.release
+//
+//                // You can then customize attributes of the publication as shown below.
+//                groupId = 'com.example.testmodule'
+//                artifactId = 'sdk'
+//                version = '1.0.3'
+//            }
+//            // Creates a Maven publication called “debug”.
+//            debug(MavenPublication) {
+//                // Applies the component for the debug build variant.
+//                from components.debug
+//
+//                groupId = 'com.example.testmodule'
+//                artifactId = 'sdk'
+//                version = '1.0.3'
+//            }
+//        }
+//    }
+//}
 
