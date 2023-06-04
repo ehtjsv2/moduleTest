@@ -1,4 +1,4 @@
-package com.example.facerecognitionmodule
+package com.example.myapplication
 
 import java.util.Vector
 

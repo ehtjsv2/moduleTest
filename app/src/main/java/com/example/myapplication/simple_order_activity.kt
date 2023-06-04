@@ -1,10 +1,12 @@
-package com.example.facerecognitionmodule
+package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import com.example.facerecognitionmodule.databinding.ActivitySimpleOrderBinding
+import com.example.myapplication.DB
+import com.example.myapplication.R
+import com.example.myapplication.databinding.ActivitySimpleOrderBinding
 import kotlin.Pair
 
 

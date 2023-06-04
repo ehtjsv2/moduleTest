@@ -1,4 +1,4 @@
-package com.example.facerecognitionmodule
+package com.example.myapplication
 
 //import androidx.camera.core.internal.YuvToJpegProcessor
 
@@ -18,6 +18,8 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.example.facerecognitionlibrary.FaceRecognitionLibrary
+import com.example.myapplication.DB
+import com.example.myapplication.general_order_activity
 import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityMainBinding
 import kotlinx.coroutines.*

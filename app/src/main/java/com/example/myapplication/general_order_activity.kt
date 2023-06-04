@@ -1,4 +1,4 @@
-package com.example.facerecognitionmodule
+package com.example.myapplication
 
 import android.app.Activity
 import android.content.Intent
@@ -12,7 +12,9 @@ import android.widget.Button
 import android.widget.CheckBox
 import android.widget.LinearLayout
 import android.widget.Toast
-import com.example.facerecognitionmodule.databinding.ActivityGeneralOrderBinding
+import com.example.myapplication.DB
+import com.example.myapplication.User
+import com.example.myapplication.databinding.ActivityGeneralOrderBinding
 import java.text.NumberFormat
 import java.util.*
 

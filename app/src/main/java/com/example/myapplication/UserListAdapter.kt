@@ -1,9 +1,10 @@
-package com.example.facerecognitionmodule
+package com.example.myapplication
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.facerecognitionmodule.databinding.UserItemBinding
+import com.example.myapplication.User
+import com.example.myapplication.databinding.UserItemBinding
 
 
 class UserListAdapter(val users: MutableList<User>): RecyclerView.Adapter<RecyclerView.ViewHolder>(){
